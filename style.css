@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+
+}
+
+main {
+
+    margin-bottom: 5%;
+}
+
+header {
+    margin-top: 5%;
+}
+
+section {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+}
+
+.new-year {
+    text-align: center;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Banner\ Image.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 610px;
+    border-radius: 16px;
+    color: #fff;
+
+}
+
+.new-year p {
+    padding-top: 177px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.new-year h2 {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: Merriweather;
+}
+
+.off h2 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.off h6 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.off h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+}
+
+.welcome {
+    background-image: url(./resources/Vectorrr.png);
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.dolor h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+
+}
+
+.dolor {
+    width: 600px;
+    padding: 100px;
+    padding-right: 0;
+}
+
+.dolor p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.dolor button {
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    background-color: #070211;
+}
+
+.img img {
+    width: 320px;
+    height: 460px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.join {
+    height: 485px;
+    background-color: beige;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+
+.park {
+    padding-top: 100px;
+
+
+}
+
+.join span {
+    color: #F00;
+
+}
+
+.join button {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red;
+    text-align: center;
+    border-radius: 9px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.offer-title h5 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    text-align: justify;
+}
+
+.offer-title h2 {
+    color: #070211;
+    font-size: 38px;
+    font-weight: 900;
+
+}
+
+.ellipse {
+    margin-left: 40px;
+    border-radius: 100%;
+    border: 10px solid red;
+    padding: 50px;
+}
+
+.sed {
+    margin-left: 60px;
+}
+
+.sed h2 {
+    color: #F00;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.sed p {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+.functional-section {
+    text-align: center;
+}
+
+.functional-about {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.functional-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.functional-title span {
+    color: #F00;
+}
+
+.functional-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    height: 96px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 68px;
+}
+
+.functional-images {
+    display: flex;
+    background-image: url('resources/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 16px;
+}
+
+.functional-gift {
+    width: 77.5%;
+}
+
+.gift-image {
+    width: 600px;
+    margin-left: 50px;
+}
+
+
+.functional-discoun {
+    text-align: right;
+}
+
+.discount-image {
+    position: relative;
+    top: 30px;
+    right: 100px;
+    width: 200px;
+}
+
+.offer-image {
+    position: absolute;
+    height: 275px;
+}
+
+
+
+
+
+
+
+
+
+.ces {
+    position: absolute;
+    margin-top: -445px;
+    border-radius: 50px;
+}
+
+.res {
+    margin-right: -590px;
+    padding-left: 20px;
+}
+
+.src {
+    margin-left: 10px;
+}
+
+.group {
+
+    position: absolute;
+}
+
+.gifts-about {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gifts-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.gifts-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.product {
+    width: 30%;
+    padding: 5px;
+    border-radius: 16px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.gifts-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.newsletter-section {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+    padding: 80px 212px;
+}
+
+.newsletter-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+
+.newsletter-section input {
+    width: 648px;
+    height: 50px;
+    padding: 25px;
+    border: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.newsletter-btn {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    /* design korbe */
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* main section done */
+
+footer {
+    margin-top: 10%;
+    background: black;
+    color: #fff;
+    padding: 120px 140px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.location {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.number,
+.website,
+p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+.contact {
+    text-align: left;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.social-link {
+    text-align: center;
+    padding: 48px;
+
+}
+
+.account-link {
+    padding: 0 24px;
+}
+
+.unsubscribe {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 120px 0;
+}
